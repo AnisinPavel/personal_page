@@ -1,0 +1,35 @@
+.header {
+  height: 64px;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #ae7c78;
+  border-bottom: 1px solid #ae7c78;
+}
+
+.header__navbar {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header__navbar-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__menu-item {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+.navbar__menu-link {
+  text-decoration: none;
+}
+
+.logo {
+  border: none;
+  margin: 0 62px;
+}
